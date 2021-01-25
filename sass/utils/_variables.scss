@@ -1,0 +1,21 @@
+$colors: (
+'accent-color': #2196f3,
+'white-color': #ffffff,
+'social-link-button': #afb1b8,
+'footer-background-color': #2f303a,
+'batton-background-color': #f5f4fa,
+'dark-color': #000000,
+'title-text-color': #212121,
+'primeri-text-color': #757575,
+'portfolio-white': #eeeeee,
+'specificity-back': rgba(47, 48, 58, 0.8),
+);
+@function getColor($key) {
+    @return map-get($colors, $key);
+}
+// @mixin fonts ($weight:500,$size:14px){
+//     font-weight:$weight;
+//     font-size:$size;
+//     line-height: 1.1;
+//     letter-spacing: 0.02em;
+// }

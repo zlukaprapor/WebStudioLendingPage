@@ -1,0 +1,34 @@
+@import '../utils/variables';
+
+body {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: normal;
+    background: getColor('white-color');
+    color: getColor('dark-color');
+}
+div,
+ul,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.visual-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1200px;
+  }

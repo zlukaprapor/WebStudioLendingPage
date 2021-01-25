@@ -1,0 +1,43 @@
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  
+}
+.client-title{
+  margin-bottom: 50px;
+  height: 42px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: getColor('title-text-color');
+}
+.client-ul {
+    display: flex;
+    flex-direction: row;
+}
+.client-li:not(:last-child) {
+    margin-right: 30px;
+}
+.client-button {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    padding: 20px 45px;
+    color: getColor('social-link-button');
+    background-color: transparent;
+    border: 1px solid getColor('social-link-button');
+    border-radius: 4px;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        color: getColor('accent-color');
+        border-color: getColor('accent-color'); 
+    }
+}
+.client-svg {
+    fill: currentColor;
+}
