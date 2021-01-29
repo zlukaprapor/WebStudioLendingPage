@@ -1,9 +1,10 @@
 
 .logo {
-    margin-right: 93px;
+  padding-left: 15px; 
     @include fonts-logo;
     color: getColor('dark-color');
   }
-  .logo-web {
+  
+.logo-web {
     color: getColor('accent-color');
-  }
+}
