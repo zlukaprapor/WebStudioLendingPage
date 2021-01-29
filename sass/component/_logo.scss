@@ -1,10 +1,7 @@
 
 .logo {
     margin-right: 93px;
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.1;
+    @include fonts-logo;
     color: getColor('dark-color');
   }
   .logo-web {
