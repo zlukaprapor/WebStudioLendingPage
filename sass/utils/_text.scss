@@ -4,3 +4,17 @@
     font-size: 26px;
     line-height: 1.1;
 }   
+
+@mixin fonts($weight, $size, $height, $spacing: 0.03em) {
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: $weight;
+ font-size: $size;
+ line-height: $height;
+ letter-spacing: $spacing;
+}
+$normal: 400;
+$medium: 500;
+$bold: 700;
+$heavy: 900;
+
