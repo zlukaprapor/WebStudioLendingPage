@@ -1,6 +1,49 @@
 .header {
-    display: flex;
-    align-items: center;
-    width: auto;
+    position: relative;
+}
+.header-nav {
+    @include flex;
+    justify-content: space-between;
     height: 60px;
+   
+}
+.header-button{
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        fill: getColor('accent-color');
+     }
+    
+}
+.header-button .icon-cross {
+    display: none;
+}
+.header-button.is-open .icon-cross {
+    display: block;
+}
+.header-button.is-open .icon-menu {
+    display: none;
+}  
+
+.menu-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: tomato;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    &.is-open{
+        display: block;
+    }
+    
 }
