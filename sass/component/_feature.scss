@@ -1,11 +1,16 @@
-
+.feature {
+    padding-top:60px ;
+    padding-bottom:60px ;
+}
 .feature-svg {
     display: block;
     width: 450px;
+    height: 120px;
+    margin-bottom:30px ;
+    padding: 25px 190px;
     border-radius: 4px;
     background-color: getColor('batton-background-color');
   }
-  
 .feature-head {
     display: block;
     height: 16px;

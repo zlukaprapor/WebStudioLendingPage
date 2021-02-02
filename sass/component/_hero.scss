@@ -1,7 +1,7 @@
 .hero {
-    
     text-align: center;
     padding-top: 118px;
+    margin-bottom: 60px;
     padding-bottom: 118px;
     background-size: auto;
     background-repeat: no-repeat;
@@ -12,6 +12,9 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/hover.jpg);
+      .container {
+          
+      }
 }
    
 .hero-title{
