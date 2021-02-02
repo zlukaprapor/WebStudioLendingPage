@@ -1,1 +1,28 @@
 
+.feature-svg {
+    display: block;
+    width: 450px;
+    border-radius: 4px;
+    background-color: getColor('batton-background-color');
+  }
+  
+.feature-head {
+    display: block;
+    height: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: getColor('title-text-color');
+}
+.feature-text {
+    display: block;
+    height: 75px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: getColor('primeri-text-color');
+}
