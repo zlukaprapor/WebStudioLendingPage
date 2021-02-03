@@ -1,9 +1,8 @@
 .hero {
     text-align: center;
     padding-top: 118px;
-    margin-bottom: 60px;
     padding-bottom: 118px;
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-image: linear-gradient(
@@ -11,10 +10,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/hover.jpg);
-      .container {
-          
-      }
+      url(../images/header-480.jpg);
 }
    
 .hero-title{

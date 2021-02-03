@@ -291,6 +291,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .visual-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -417,13 +423,12 @@ a {
 .hero {
   text-align: center;
   padding-top: 118px;
-  margin-bottom: 60px;
   padding-bottom: 118px;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hover.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hover.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header-480.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-480.jpg);
 }
 
 .hero-title {
@@ -528,7 +533,7 @@ a {
 }
 
 .team-list {
-  height: 450px;
+  height: 626px;
   margin-bottom: 30px;
   text-align: center;
   background-color: #ffffff;

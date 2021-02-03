@@ -12,11 +12,11 @@
   letter-spacing: 0.03em;
   color: getColor('title-text-color');
 }
-  .client-ul {
+.client-ul {
      display:flex;
      flex-wrap: wrap;
-  }
-  .client-li {
+}
+.client-li {
     margin-right: 30px;
     margin-bottom: 30px;
     &:nth-child(2n) {
@@ -25,7 +25,7 @@
     &:nth-last-child(-n + 2) {
         margin-bottom: 0;
     }
-  }
+}
 
 .client-button {
     display: flex;
