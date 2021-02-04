@@ -427,8 +427,8 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header-480.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-480.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/Header-480.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/Header-480.jpg);
 }
 
 .hero-title {
@@ -686,6 +686,8 @@ img {
 }
 
 .container-logo {
+  display: block;
+  padding-bottom: 20px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -704,6 +706,7 @@ img {
 }
 
 .footer-adress {
+  padding-bottom: 8px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -711,6 +714,7 @@ img {
 }
 
 .footer-link {
+  padding-bottom: 14px;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -729,7 +733,12 @@ img {
   color: #2196f3;
 }
 
+.footer-link:last-child {
+  padding-bottom: 60px;
+}
+
 .footer-h {
+  padding-bottom: 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -752,13 +761,13 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 60px;
 }
 
 .footer-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0;
   border: none;
   width: 44px;
   height: 44px;
@@ -784,6 +793,7 @@ img {
 }
 
 .form-h {
+  padding-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -806,6 +816,10 @@ img {
 }
 
 .form-input {
+  width: 450px;
+  height: 50px;
+  padding-left: 16px;
+  margin-bottom: 20px;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
