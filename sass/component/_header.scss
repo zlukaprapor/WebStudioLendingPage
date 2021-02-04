@@ -14,6 +14,7 @@
     padding: 0;
     margin: 0;
     border: none;
+    z-index: 1;
     background-color: transparent;
     cursor: pointer;
     @include transit (fill);
@@ -35,4 +36,20 @@
 
 .header-button.is-open .icon-menu {
     display: none;
-}  
+} 
+
+.header-navigator{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.link{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.02em;
+}

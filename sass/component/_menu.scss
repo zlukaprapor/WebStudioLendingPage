@@ -1,6 +1,13 @@
 .menu-container {
     &.is-open{
         display: block;
+        position: absolute;
+        top: 0%;
+        margin-left:  -15px;
+        left: auto;
+        width: 480px;
+        height: auto;
+        background-color: whitesmoke;
     }
     @media screen and (max-width:767px) {
         display: none;
