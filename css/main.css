@@ -683,26 +683,9 @@ img {
   background-image: linear-gradient(to right, #2f303a, #2f303a);
 }
 
-.footer-ul {
+.footer-content {
   display: block;
   text-align: center;
-}
-
-.futer-adress-li {
-  margin-right: 70px;
-}
-
-.footer-div {
-  width: 231px;
-  height: 81px;
-}
-
-.adress-item {
-  min-height: 23px;
-}
-
-.adress-item:not(:last-child) {
-  margin-bottom: 9px;
 }
 
 .container-logo {
@@ -713,14 +696,24 @@ img {
   color: #ffffff;
 }
 
-.foot-adress {
+.footer-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-adress {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.foot-link {
+.footer-link {
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -735,11 +728,21 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.foot-link:hover, .foot-link:focus {
+.footer-link:hover, .footer-link:focus {
   color: #2196f3;
 }
 
-.footer-li {
+.footer-h {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -749,21 +752,9 @@ img {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 206px;
-  height: 80px;
-  margin-top: 15px;
-}
-
-.footer-h {
-  padding-right: 40px;
-  padding-bottom: 20px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-button {
@@ -804,6 +795,19 @@ img {
   color: #ffffff;
 }
 
+.form-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .form-input {
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -825,7 +829,6 @@ img {
           align-items: center;
   text-align: center;
   padding: 0;
-  margin-left: 12px;
   padding-left: 29px;
   width: 200px;
   height: 50px;
