@@ -6,6 +6,7 @@ body {
     background: getColor('white-color');
     color: getColor('dark-color');
 }
+
 div,
 ul,
 h1,
@@ -19,11 +20,13 @@ a {
   list-style: none;
   text-decoration: none;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 .visual-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -31,6 +34,7 @@ img {
     height: 1px;
     margin: -1px;
 }
+
 .container {
   margin: 0 auto;
   padding: 0 15px;

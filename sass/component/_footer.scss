@@ -6,10 +6,12 @@
     background-position: center;
     background-image: linear-gradient(to right, #2f303a, #2f303a);
 }
+
 .footer-content {
     display:block;
     text-align: center;
 }
+
 .container-logo {
     font-family: Raleway;
     font-weight: bold;
@@ -17,16 +19,19 @@
     line-height: 1.1;
     color: getColor('white-color');
 }
+
 .footer-cont{
    display: flex;
    flex-direction: column;
 }
+
 .footer-adress {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: getColor('white-color');
 }
+
 .footer-link {
     font-weight: normal;
     font-style: normal;
@@ -41,6 +46,7 @@
         color: getColor('accent-color'); 
     }
 }
+
 .footer-h {
     font-style: normal;
     font-weight: bold;
@@ -50,12 +56,14 @@
     text-transform: uppercase;
     color: getColor('white-color');
 }
+
 .footer-set {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .footer-button {
     display: flex;
     padding: 0;
@@ -77,6 +85,7 @@
         background-color: getColor('accent-color');
     }
 }
+
 .form-h {
     font-weight: bold;
     font-size: 14px;
@@ -85,11 +94,13 @@
     text-transform: uppercase;
     color: getColor('white-color');
 }
+
 .form-div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .form-input {
     background-color: getColor('footer-background-color');
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -98,6 +109,7 @@
     border-radius: 4px;
     color: getColor('primeri-text-color');
 }
+
 .form-button {
     position: relative;
     display: flex;
@@ -120,6 +132,7 @@
     color: getColor('white-color');
     cursor: pointer;
 }
+
 .form-svg {
     position: absolute;
     left: 148px;

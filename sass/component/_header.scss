@@ -1,7 +1,6 @@
 .header {
     position: relative;
-    border-bottom: 1px solid getColor('border-color');
-    
+    border-bottom: 1px solid getColor('border-color'); 
 }
 
 .header-nav {
@@ -9,6 +8,7 @@
     justify-content: space-between;
     height: 60px;   
 }
+
 .header-button{
     display: inline-flex;
     padding: 0;
