@@ -1,8 +1,19 @@
 
 .logo {
-  padding-left: 15px; 
-    @include fonts-logo;
+  @include fonts-logo;
     color: getColor('dark-color');
+
+  @media screen and (min-width:$mobile){
+    padding-left: 15px; 
+  }
+  @media screen and (min-width:$tablet){
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 0; 
+  }
+  @media screen and (min-width:$desktop){
+    padding-left: 215px; 
+    }
 }
   
 .logo-web {

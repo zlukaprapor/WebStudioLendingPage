@@ -1,5 +1,6 @@
 .menu-container {
-    &.is-open{
+    &.is-open{   
+        @media screen and (max-width:767px) {   
         display: block;
         position: absolute;
         top: 0%;
@@ -7,7 +8,8 @@
         left: auto;
         width: 480px;
         height: auto;
-        background-color: whitesmoke;
+        background-color: getColor('white-color');
+        }
     }
     @media screen and (max-width:767px) {
         display: none;
@@ -16,7 +18,11 @@
         left: 0;
         width: 100%;
     }
-    @media screen and (min-width:$tablet){
-        display: flex;
+    @media screen and(min-width:$tablet) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 88px;
     }
 }
+      
