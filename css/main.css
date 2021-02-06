@@ -350,9 +350,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -414,6 +411,8 @@ img {
 }
 
 .link {
+  padding-top: 33px;
+  padding-left: 40px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -421,6 +420,75 @@ img {
   line-height: 47px;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.active {
+  color: #2196f3;
+}
+
+.header-contact {
+  padding-left: 40px;
+  padding-top: 302px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.header-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.header-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-social {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.header-mail-list {
+  display: block;
+  padding-top: 32px;
+  font-family: Roboto;
+}
+
+.header-social-list {
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+.border {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.header-svg-mail, .header-svg-tel {
+  display: none;
 }
 
 .menu-container.is-open {
