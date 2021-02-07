@@ -43,18 +43,24 @@
 } 
 
 .header-navigator{
-    @media screen and (max-width:767px) {
     display: flex;
+    @media screen and (max-width:767px) {
+   
     flex-direction: column;
     align-items: flex-start;
     padding-left: 30px;
     padding-top: 16px;
     }
     @media screen and (min-width:$tablet){
-        display: flex;
+        
         margin-right: 69px;
     }
+    @media screen and (min-width:$desktop){
+        
+        margin-right: 305px;
+    }
 }
+
 
 .link {
     position: relative;
@@ -111,17 +117,23 @@
 }
 
  .header-contact {
+    display: flex;
     @media screen and (max-width:767px) {
      padding-left: 40px;
      padding-top: 306px;
-     display: flex;
-     flex-direction: column-reverse;
+     
+    flex-direction: column-reverse;
     }
     @media screen and (min-width:$tablet) {
-        display: flex;
-        flex-direction: column;
+       
+    flex-direction: column;
         
     }
+    @media screen and (min-width:$desktop) {
+       
+        flex-direction: row;
+         padding-right: 215px;   
+        }
 
 }
 
@@ -136,6 +148,7 @@
     color: getColor('accent-color');
     }
     @media screen and (min-width:$tablet) {
+    display: flex;
     font-size: 12px;
     line-height: 14px;
     color: getColor('primeri-text-color');
@@ -154,10 +167,14 @@
     } 
     @media screen and (min-width:$tablet) {
     display: flex;
+    align-items: center;
     padding-bottom: 10px;
     font-size: 12px;
     line-height: 14px;
     color: getColor('primeri-text-color');
+    }
+    @media screen and (min-width:$desktop) {
+        padding-right: 30px;
     }
 }
 
@@ -228,3 +245,4 @@
         fill: currentColor;
     }
 }
+

@@ -322,9 +322,9 @@ img {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
   .container {
-    width: 1200px;
+    width: 1600px;
   }
 }
 
@@ -350,9 +350,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
   .logo {
-    padding-left: 215px;
+    padding-left: 230px;
   }
 }
 
@@ -425,11 +425,14 @@ img {
   display: none;
 }
 
+.header-navigator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media screen and (max-width: 767px) {
   .header-navigator {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -444,10 +447,13 @@ img {
 
 @media screen and (min-width: 768px) {
   .header-navigator {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin-right: 69px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .header-navigator {
+    margin-right: 305px;
   }
 }
 
@@ -515,13 +521,16 @@ img {
   }
 }
 
+.header-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media screen and (max-width: 767px) {
   .header-contact {
     padding-left: 40px;
     padding-top: 306px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -531,13 +540,20 @@ img {
 
 @media screen and (min-width: 768px) {
   .header-contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .header-contact {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-right: 215px;
   }
 }
 
@@ -558,6 +574,9 @@ img {
 
 @media screen and (min-width: 768px) {
   .header-tel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-size: 12px;
     line-height: 14px;
     color: #757575;
@@ -584,10 +603,19 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-bottom: 10px;
     font-size: 12px;
     line-height: 14px;
     color: #757575;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .header-mail {
+    padding-right: 30px;
   }
 }
 
