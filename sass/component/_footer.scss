@@ -14,52 +14,65 @@
        display: flex;
        flex-wrap: wrap;
     }
+    @media screen and(min-width:$desktop) {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
 }
+
 .footer-div-adress {
     @media screen and(min-width:$tablet) {
-    padding-left: 61px;
-    padding-right: 165px;
+        padding-left: 61px;
+        padding-right: 165px;
     }
     @media screen and(min-width:$desktop) {
+        padding-left: 0px;
+        padding-right: 70px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        }
+        align-items: flex-start;      
+    }
 }
+
 .container-logo {
     display: block;
     padding-bottom: 20px;
     font-family: Raleway;
+    font-style: normal;
     font-weight: bold;
-    font-size: 26px;
-    line-height: 1.1;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
     color: getColor('white-color');
+    @media screen and(min-width:$desktop) {
+        font-size: 26px;
+        line-height: 31px;
+    }
 }
 
 .footer-cont{
-   display: flex;
-   flex-direction: column;
-   @media screen and(min-width:$desktop) {
+    display: flex;
+    flex-direction: column;
+    @media screen and(min-width:$mobile) {
+        justify-content: space-between;
+        height: 79px;
+        margin-bottom: 60px;
+    }
+    @media screen and(min-width:$desktop) {
        align-items: flex-start;
-   }
+       justify-content: space-between;
+       height: 81px;
+    }
 }
 
-.footer-adress {
-    
+.footer-adress { 
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: getColor('white-color');
-    @media screen and(max-width:767px) {
-        padding-bottom: 8px;
-    }
-    @media screen and(min-width:$tablet) {
-        padding-bottom: 9px;
-    }
 }
 
 .footer-link {
-   
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
@@ -72,18 +85,7 @@
     &:hover, &:focus {
         color: getColor('accent-color'); 
     }
-    &:last-child {
-        padding-bottom: 60px;
-    }
-    @media screen and(max-width:767px) {
-        padding-bottom: 8px;
-    }
-    @media screen and(min-width:$tablet) {
-        padding-bottom: 9px;
-    }
 }
-
-
 
 .footer-h {
     padding-bottom: 20px;
@@ -97,7 +99,6 @@
     @media screen and(min-width:$tablet) {
         padding-top: 5px; 
     }
-    
 }
 
 .footer-set {
@@ -106,6 +107,9 @@
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 60px;
+    @media screen and(min-width:$desktop) {
+        padding-bottom: 0px;
+    }
 }
 
 .footer-button {
@@ -146,6 +150,11 @@
     @media screen and(min-width:$tablet) {
         padding-left:151px; 
     }
+    @media screen and(min-width:$desktop) {
+        padding-left:93px;
+        flex-direction: row;
+        align-items: flex-end;
+    }
 }
 
 .form-input {
@@ -159,6 +168,10 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     color: getColor('primeri-text-color');
+    @media screen and(min-width:$desktop) {
+        width: 358px; 
+        margin-bottom:0;
+    }
 }
 
 .form-button {
@@ -181,6 +194,9 @@
     letter-spacing: 0.06em;
     color: getColor('white-color');
     cursor: pointer;
+    @media screen and(min-width:$desktop) {
+        margin-left: 12px;
+    }
 }
 
 .form-svg {
