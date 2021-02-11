@@ -1,6 +1,34 @@
 .feature {
     padding-top:60px ;
     padding-bottom:60px ;
+    @media screen and(min-width:$desktop) {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    } 
+}
+
+.feature-ul {
+    display: flex;
+    flex-wrap: wrap;
+    @media screen and(min-width:$tablet) {
+    margin-left: -15px;
+    margin-right: -15px;
+    }
+    @media screen and(min-width:$desktop) {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+}
+
+.feature-li {
+    @media screen and(min-width:$tablet) {
+        width: calc((100% - 4 * 15px) /2);
+        margin: 15px;
+      }
+      @media screen and(min-width:$desktop) {
+        width: calc((100% - 8 * 15px) /4);
+        margin: 15px;
+      }
 }
 
 .feature-svg {
@@ -11,6 +39,16 @@
     padding: 25px 190px;
     border-radius: 4px;
     background-color: getColor('batton-background-color');
+    @media screen and(min-width:$tablet) {
+        width: 354px;
+        height: 120px;
+        padding: 25px 142px;
+    }
+    @media screen and(min-width:$desktop) {
+        width: 270px;
+        height: 120px;
+        padding: 25px 100px;
+    }
 }
 
 .feature-head {
@@ -22,8 +60,10 @@
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: center;
     color: getColor('title-text-color');
+    @media screen and(max-width:767px) {
+        text-align: center;
+    }
 }
 
 .feature-text {

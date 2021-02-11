@@ -1,5 +1,55 @@
 .specificity {
-    @media screen and (max-width:$tablet){
+    @media screen and (max-width:1599px){
         display: none;
     }
 }
+.images {
+    padding-bottom: 94px;
+}
+.image-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.images-title {
+    margin-bottom: 50px;
+    height: 42px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: getColor('title-text-color');  
+}
+.images-li {
+    position: relative;
+    width: calc((100% - 6 * 15px) /3);
+        margin: 15px;
+}
+.images-div {
+    position: absolute;
+    bottom: 0%;
+    width: 370px;
+    height: 70px;
+    background: getColor('specificity-back');
+}
+.img {
+    display: block;
+}
+.images-p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 16px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: getColor('white-color');
+  }

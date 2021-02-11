@@ -129,7 +129,16 @@
       <h2 class="team-title">Наша команда</h2>
       <ul class="team-ul">
         <li class="team-list">
-          <img class="img" src="./images/tc1/tc1-450.jpg" alt="Портрет" width="450">
+          <img class="img" src="./images/tc1/tc1-450.jpg" 
+          srcset = "
+          ./images/tc1/tc1-450.jpg      450w
+          ./images/tc1/tc1-450@2x.jpg   900w 
+          ./images/tc1/tc1-354.jpg      354w
+          ./images/tc1/tc1-354@2x.jpg   708w
+          ./images/tc1/tc1-270.jpg      270w
+          ./images/tc1/tc1-270@2x.jpg   540w"
+           
+           alt="Портрет" width="450">
           <h3 class="head">Игорь Демьяненко</h3>
           <p class="text" lang="en">Product Designer</p>
           <div class="team-div">
