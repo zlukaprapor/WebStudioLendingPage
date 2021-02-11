@@ -5,9 +5,9 @@
 
 .header-nav {
     @include flex;
-    justify-content: space-between;
+        justify-content: space-between;
     @media screen and(max-width:767px){
-    height: 60px; 
+        height: 60px; 
     }  
 }
 
@@ -45,19 +45,18 @@
 .header-navigator{
     display: flex;
     @media screen and (max-width:767px) {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 30px;
-    padding-top: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 30px;
+        padding-top: 16px;
     }
     @media screen and (min-width:$tablet){
-        margin-right: 69px;
+        margin-right: 84px;
     }
     @media screen and (min-width:$desktop){ 
         margin-right: 305px;
     }
 }
-
 
 .link {
     position: relative;
@@ -69,18 +68,18 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @media screen and (max-width:767px){
-    padding-top: 33px;
-    padding-left: 40px;
-    text-align: center;
-    font-size: 40px;
-    line-height: 47px;
-    color: getColor('title-text-color');
+        padding-top: 33px;
+        padding-left: 40px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 47px;
+        color: getColor('title-text-color');
     }
     @media screen and (min-width:$tablet) {
-    padding: 32px 0;
-    font-size: 14px;
-    line-height: 16px;
-    color: getColor('title-text-color');
+        padding: 32px 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: getColor('title-text-color');
     }
     &:hover,&:focus {
         @media screen and (min-width:$tablet) {
@@ -101,35 +100,34 @@
 
 .border-index::after {
     @media screen and (min-width:$tablet) {
-    position: absolute;
-    top: 96%;
-    left: 0%;
-    width: 48px;
-    height: 4px;
-    content: "";
-    border: 1px;
-    background-color: getColor('accent-color');
-    border-radius: 2px;
+        position: absolute;
+        top: 96%;
+        left: 0%;
+        width: 48px;
+        height: 4px;
+        content: "";
+        border: 1px;
+        background-color: getColor('accent-color');
+        border-radius: 2px;
     }
 }
 
  .header-contact {
     display: flex;
     @media screen and (max-width:767px) {
-     padding-left: 40px;
-     padding-top: 306px;
-     
-    flex-direction: column-reverse;
+        padding-left: 40px;
+        padding-top: 306px;
+        flex-direction: column-reverse;
     }
     @media screen and (min-width:$tablet) {
        
-    flex-direction: column;
+        flex-direction: column;
         
     }
     @media screen and (min-width:$desktop) {
        
         flex-direction: row;
-         padding-right: 215px;   
+        padding-right: 215px;   
         }
 
 }
@@ -140,15 +138,15 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     @media screen and (max-width:767px) {
-    font-size: 34px;
-    line-height: 40px;
-    color: getColor('accent-color');
+        font-size: 34px;
+        line-height: 40px;
+        color: getColor('accent-color');
     }
     @media screen and (min-width:$tablet) {
-    display: flex;
-    font-size: 12px;
-    line-height: 14px;
-    color: getColor('primeri-text-color');
+        display: flex;
+        font-size: 12px;
+        line-height: 14px;
+        color: getColor('primeri-text-color');
     }
 }
 
@@ -158,17 +156,17 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     @media screen and (max-width:767px) {
-    font-size: 24px;
-    line-height: 28px;
-    color: getColor('primeri-text-color');
+        font-size: 24px;
+        line-height: 28px;
+        color: getColor('primeri-text-color');
     } 
     @media screen and (min-width:$tablet) {
-    display: flex;
-    align-items: center;
-    padding-bottom: 10px;
-    font-size: 12px;
-    line-height: 14px;
-    color: getColor('primeri-text-color');
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        font-size: 12px;
+        line-height: 14px;
+        color: getColor('primeri-text-color');
     }
     @media screen and (min-width:$desktop) {
         padding-right: 30px;
@@ -212,22 +210,22 @@
         display: none;
     }
     @media screen and(min-width: 768px){
-            width: 14px;
-            height: 10px;
-            margin-right: 8px;
-            fill: currentColor;
+        width: 14px;
+        height: 10px;
+        margin-right: 8px;
+        fill: currentColor;
     }
     @media screen and(min-width: 1199px){
-            width: 16px;
-            height: 12px;
-            margin-right: 10px;
-            fill: currentColor;
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        fill: currentColor;
     }
 }
 
 .header-svg-tel {
     @media screen and(max-width: 767px){
-    display: none;
+        display: none;
     }
     @media screen and(min-width: 768px){
         width: 10px;
