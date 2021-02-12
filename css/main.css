@@ -938,22 +938,22 @@ img {
   }
 }
 
-.images {
-  padding-bottom: 94px;
+@media screen and (min-width: 1600px) {
+  .specificity {
+    padding-bottom: 79px;
+  }
 }
 
 .image-ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 185px;
+  margin-left: 185px;
 }
 
 .images-title {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   height: 42px;
   font-weight: bold;
   font-size: 36px;
@@ -976,17 +976,13 @@ img {
   height: 70px;
 }
 
-.img {
-  display: block;
-}
-
 .images-p {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 220px;
+  width: 205px;
   height: 16px;
   font-style: normal;
   font-weight: bold;
