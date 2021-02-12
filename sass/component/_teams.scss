@@ -1,6 +1,6 @@
 .team {
     padding-top: 60px;
-    padding-bottom: 94px;
+    padding-bottom: 30px;
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -9,34 +9,73 @@
       getColor('batton-background-color'),
       getColor('batton-background-color')
     );
+    @media screen and(min-width:$tablet) {
+        padding-bottom: 45px;
+    }
+    @media screen and(min-width:$desktop) {
+        padding-top: 94px;
+        padding-bottom: 79px;
+    }
 }
 
 .team-title {
-    margin-bottom: 50px;
-    height: 42px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 1.1;
+    font-size: 28px;
+    line-height: 33px;
     text-align: center;
     letter-spacing: 0.03em;
     color: getColor('title-text-color');
+    @media screen and(min-width:$tablet) {
+        margin-bottom: 15px;
+    }
+    @media screen and(min-width:$desktop) {
+        margin-bottom: 35px;
+        font-size: 36px;
+        line-height: 42px; 
+    }
+}
+
+.team-ul {
+    @media screen and (min-width:$tablet){
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    @media screen and(min-width:$desktop) {
+        margin-right: 185px;
+        margin-left: 185px;
+    }
 }
 
 .team-list {
-    height: 626px;
-   margin-bottom: 30px;
-    text-align: center;
     background-color: getColor('white-color');
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+    @media screen and (min-width:$mobile){
+        margin-bottom: 30px;
+        text-align: center;
+    } 
+    @media screen and (min-width:$tablet){
+        width: calc((100% - 4 * 15px) /2);
+        margin: 15px;  
+    } 
+    @media screen and (min-width:$desktop){
+        width: calc((100% - 8 * 15px) /4);
+        margin: 15px;   
+    } 
+}         
 
 .team {
     & .head {
         display: block;
+        height: 19px;
         margin-top: 30px;
-        margin-bottom: 10px;
+        
         font-weight: 500;
         font-size: 16px;
         line-height: 1.2;
@@ -44,8 +83,11 @@
         color: getColor('title-text-color');
     }
     & .text {
+        display: block;
+        height: 19px;
+        margin-top: 10px;
         font-size: 16px;
-        line-height: 1.18;
+        line-height: 19px;
         letter-spacing: 0.03em;
         color: getColor('primeri-text-color');
     }
@@ -56,6 +98,10 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 16px;
+    padding-bottom: 24px ;
+    @media screen and (min-width:$desktop){
+        padding-bottom: 30px ;
+    } 
 }
 
 .team-button {
