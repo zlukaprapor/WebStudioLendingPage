@@ -833,13 +833,20 @@ img {
 
 .feature {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .feature {
+    padding-top: 45px;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 1600px) {
   .feature {
-    padding-bottom: 94px;
-    padding-top: 94px;
+    padding-bottom: 79px;
+    padding-top: 79px;
   }
 }
 
@@ -862,6 +869,12 @@ img {
   .feature-ul {
     margin-right: 200px;
     margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature-li {
+    padding-bottom: 30px;
   }
 }
 
@@ -902,6 +915,7 @@ img {
     width: 270px;
     height: 120px;
     padding: 25px 100px;
+    margin-bottom: 22px;
   }
 }
 
@@ -925,11 +939,17 @@ img {
 
 .feature-text {
   display: block;
-  height: 75px;
+  height: 50px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+@media screen and (min-width: 768px) {
+  .feature-text {
+    height: 75px;
+  }
 }
 
 @media screen and (max-width: 1599px) {
@@ -1630,6 +1650,18 @@ img {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    top: 513px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .modal {
+    top: 528px;
+  }
 }
 
 .modal-butten {
