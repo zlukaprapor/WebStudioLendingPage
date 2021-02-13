@@ -1661,6 +1661,8 @@ img {
 @media screen and (min-width: 1600px) {
   .modal {
     top: 528px;
+    width: 528px;
+    height: 581px;
   }
 }
 
@@ -1734,6 +1736,13 @@ img {
   color: #212121;
 }
 
+@media screen and (min-width: 1600px) {
+  .modal-h {
+    width: auto;
+    height: auto;
+  }
+}
+
 .modal-form-fild {
   position: relative;
   display: -webkit-box;
@@ -1745,6 +1754,12 @@ img {
           flex-direction: column;
   margin-bottom: 10px;
   width: 370px;
+}
+
+@media screen and (min-width: 1600px) {
+  .modal-form-fild {
+    width: 448px;
+  }
 }
 
 label {
@@ -1771,6 +1786,13 @@ input {
 input:hover, input:focus {
   border: 1px solid #2196f3;
   outline: none;
+}
+
+@media screen and (min-width: 1600px) {
+  input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 textarea {
@@ -1825,6 +1847,12 @@ textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
+@media screen and (min-width: 1600px) {
+  textarea {
+    width: auto;
+  }
+}
+
 .modal-input {
   cursor: pointer;
 }
@@ -1849,6 +1877,12 @@ textarea::placeholder {
 .modal-form button {
   margin-top: 30px;
   margin-left: 85px;
+}
+
+@media screen and (min-width: 1600px) {
+  .modal-form button {
+    margin-left: 124px;
+  }
 }
 
 .checkbox-in {
@@ -1881,6 +1915,14 @@ textarea::placeholder {
           align-items: center;
 }
 
+@media screen and (min-width: 1600px) {
+  .checkbox {
+    width: 425px;
+    margin-top: 20px;
+    margin-left: 12px;
+  }
+}
+
 .checkbox-text {
   font-style: normal;
   font-weight: normal;
@@ -1888,6 +1930,12 @@ textarea::placeholder {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+@media screen and (min-width: 1600px) {
+  .checkbox-text {
+    font-size: 14px;
+  }
 }
 
 .checkbox-a {
@@ -1899,6 +1947,12 @@ textarea::placeholder {
   margin-left: 5px;
   text-decoration: underline;
   color: #2196f3;
+}
+
+@media screen and (min-width: 1600px) {
+  .checkbox-a {
+    font-size: 14px;
+  }
 }
 
 .checkbox-icon {
