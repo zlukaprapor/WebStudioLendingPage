@@ -54,7 +54,7 @@
         margin-right: 84px;
     }
     @media screen and (min-width:$desktop){ 
-        margin-right: 305px;
+        margin-right: 331px;
     }
 }
 
@@ -127,7 +127,7 @@
     @media screen and (min-width:$desktop) {
        
         flex-direction: row;
-        padding-right: 215px;   
+        // padding-right: 215px;   
         }
 
 }
@@ -215,7 +215,7 @@
         margin-right: 8px;
         fill: currentColor;
     }
-    @media screen and(min-width: 1600px){
+    @media screen and(min-width:$desktop){
         width: 16px;
         height: 12px;
         margin-right: 10px;
@@ -233,7 +233,7 @@
         margin-right: 8px;
         fill: currentColor;
     }
-    @media screen and(min-width: 1600px){
+    @media screen and(min-width:$desktop){
         width: 10px;
         height: 16px;
         margin-right: 10px;

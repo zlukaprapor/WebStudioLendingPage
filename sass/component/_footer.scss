@@ -14,10 +14,6 @@
        display: flex;
        flex-wrap: wrap;
     }
-    @media screen and(min-width:$desktop) {
-        margin-right: 200px;
-        margin-left: 200px;
-    }
 }
 
 .footer-div-adress {
@@ -62,6 +58,9 @@
        align-items: flex-start;
        justify-content: space-between;
        height: 81px;
+    }
+    @media screen and(min-width:$mobile) {
+        margin-bottom: 0;
     }
 }
 

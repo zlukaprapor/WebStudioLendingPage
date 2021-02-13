@@ -1,8 +1,8 @@
 .specificity {
-    @media screen and (max-width:1599px){
+    @media screen and (max-width:1199px){
         display: none;
     }
-    @media screen and (min-width:1600px){
+    @media screen and (min-width:1200px){
         
         padding-bottom:79px ;
     }
@@ -10,8 +10,6 @@
 
 .image-ul {
     display: flex;
-    margin-right: 185px;
-    margin-left: 185px;
 }
 .images-title {
     margin-bottom: 35px;

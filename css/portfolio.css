@@ -322,9 +322,9 @@ img {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .container {
-    width: 1600px;
+    width: 1200px;
   }
 }
 
@@ -341,12 +341,6 @@ img {
     padding-top: 26px;
     padding-bottom: 26px;
     padding-left: 0;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .logo {
-    padding-left: 215px;
   }
 }
 
@@ -445,9 +439,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .header-navigator {
-    margin-right: 305px;
+    margin-right: 331px;
   }
 }
 
@@ -541,13 +535,12 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .header-contact {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-right: 215px;
   }
 }
 
@@ -607,7 +600,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .header-mail {
     padding-right: 30px;
   }
@@ -663,7 +656,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .header-svg-mail {
     width: 16px;
     height: 12px;
@@ -687,7 +680,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .header-svg-tel {
     width: 10px;
     height: 16px;
@@ -760,13 +753,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
-  .footer-content {
-    margin-right: 200px;
-    margin-left: 200px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .footer-div-adress {
     padding-left: 61px;
@@ -774,7 +760,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .footer-div-adress {
     padding-left: 0px;
     padding-right: 70px;
@@ -803,7 +789,7 @@ img {
   color: #ffffff;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container-logo {
     font-size: 26px;
     line-height: 31px;
@@ -830,7 +816,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .footer-cont {
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -839,6 +825,12 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between;
     height: 81px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .footer-cont {
+    margin-bottom: 0;
   }
 }
 
@@ -901,7 +893,7 @@ img {
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .footer-set {
     padding-bottom: 0px;
   }
@@ -964,7 +956,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .form-div {
     padding-left: 93px;
     -webkit-box-orient: horizontal;
@@ -992,7 +984,7 @@ img {
   color: #757575;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .form-input {
     width: 358px;
     margin-bottom: 0;
@@ -1026,7 +1018,7 @@ img {
   cursor: pointer;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .form-button {
     margin-left: 12px;
   }
@@ -1091,7 +1083,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .modal {
     top: 528px;
     width: 528px;
@@ -1169,7 +1161,7 @@ img {
   color: #212121;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .modal-h {
     width: auto;
     height: auto;
@@ -1189,7 +1181,7 @@ img {
   width: 370px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .modal-form-fild {
     width: 448px;
   }
@@ -1221,7 +1213,7 @@ input:hover, input:focus {
   outline: none;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   input {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1280,7 +1272,7 @@ textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   textarea {
     width: auto;
   }
@@ -1312,7 +1304,7 @@ textarea::placeholder {
   margin-left: 85px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .modal-form button {
     margin-left: 124px;
   }
@@ -1348,7 +1340,7 @@ textarea::placeholder {
           align-items: center;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .checkbox {
     width: 425px;
     margin-top: 20px;
@@ -1365,7 +1357,7 @@ textarea::placeholder {
   color: #757575;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .checkbox-text {
     font-size: 14px;
   }
@@ -1382,7 +1374,7 @@ textarea::placeholder {
   color: #2196f3;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .checkbox-a {
     font-size: 14px;
   }
@@ -1415,7 +1407,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container-ul {
     padding-top: 94px;
     padding-bottom: 35px;
@@ -1486,10 +1478,10 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .progect {
-    margin-left: 185px;
-    margin-right: 185px;
+    margin-left: -15px;
+    margin-right: -15px;
     margin-bottom: 79px;
   }
 }
@@ -1524,7 +1516,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1199px) {
   .progect-li:last-child {
     margin-bottom: 60px;
   }
@@ -1548,7 +1540,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .progect-li {
     width: calc((100% - 6 * 15px) /3);
     margin: 15px;
@@ -1570,7 +1562,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .product-div {
     padding-left: 24px;
     padding-right: 24px;
@@ -1637,7 +1629,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .anime-p {
     width: 322px;
     height: 168px;
